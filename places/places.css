@@ -1,0 +1,99 @@
+body{
+  margin-bottom: 80px;
+}
+h1 {
+  text-align: center;
+  font-size: 55px;
+}/**/
+.p2 {
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p2 img{
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 4500px;
+}
+.p2 figcaption {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #555; /* Adjust the color as needed */
+  margin-top: 10px; /* Add some space between the image and caption */
+}
+.p2 .grid1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.p2 .grid1 .grid1-items{
+  width: 48%; /* Adjust the width as needed */
+  margin-bottom: 10px; /* Adjust the margin between items as needed */
+}
+/**/
+.p3{
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p3 img{
+  text-align: right;
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 4500px;
+}
+.p3 figcaption {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #555; /* Adjust the color as needed */
+  margin-top: 10px; /* Add some space between the image and caption */
+}
+.p3 .grid1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.p3 .grid1 .grid1-items{
+  width: 48%; /* Adjust the width as needed */
+  margin-bottom: 10px; /* Adjust the margin between items as needed */
+}
+h2{
+  font-size: 40px;
+  margin-left:120px;
+}
+
+/**/
+/**/
+.p4{
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p4 img{
+  text-align: right;
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+  height: 370px;
+}
+.p4 figcaption {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #555; /* Adjust the color as needed */
+  margin-top: 10px; /* Add some space between the image and caption */
+}
+.p4 .grid1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.p4 .grid1 .grid1-items{
+  width:33%; /* Adjust the width as needed */
+  margin-bottom: 10px; /* Adjust the margin between items as needed */
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="./about.css">
+    <title>Da Nang City</title>
+</head>
+
+<body>
+  <!--header-->
+  <div class="header">
+      <a href="#default" class="logo">
+          <img src="../images/logo.jpeg" alt="CompanyLogo">
+      </a>
+      <div class="header-right">
+          <a  href="../home.html">Home</a>
+          <a href="../pagoda/pagoda.html">Pagodas</a>
+          <a href="../bridge/bridge.html">Bridge</a>
+          <a  href="../craftVillage/craftVillage.html">Craft Villages</a>
+          <a  href="../places/places.html">Other Places</a>
+          <a  href="../About/about.html">About</a>
+      </div>
+      <div
+          class="menu-icon" id="menuIcon">&#9776;
+      </div>    
+  </div>
+ 
+
+
+  <div class="bg">
+      <div>
+        <p>The webpage is meticulously crafted, drawing inspiration from the essence and charm of the hometown. Each element, from the color scheme to the layout, reflects the unique character and identity of the place. The homepage showcases familiar landmarks, vibrant local culture, and the warmth of community living. Navigating through the site feels like strolling through the streets of the hometown, with images capturing the spirit of the surroundings. The design not only pays homage to the physical attributes but also incorporates the rich history and traditions that make the hometown truly special. Users exploring the webpage are invited on a digital journey that evokes a sense of nostalgia and pride, creating a virtual connection to the roots of the community.</p>
+        
+
+         <!--Multiple select box-->
+         <label for="places" id="places-label">Add places you want to explore near Da Nang City:</label>
+         <select id="places" name="places" multiple>
+             <option value="beaches">Beaches</option>
+             <option value="rivers">Rivers</option>
+             <option value="mountains">Mountains</option>
+             <option value="falls">Falls</option>
+         </select>
+        <!-- Add the radio button section here -->
+        <form>
+          <p>Select a rating from 1 to 5:</p>
+
+          <input type="radio" id="rating1" name="rating" value="1">
+          <label for="rating1">1</label>
+
+          <input type="radio" id="rating2" name="rating" value="2">
+          <label for="rating2">2</label>
+
+          <input type="radio" id="rating3" name="rating" value="3">
+          <label for="rating3">3</label>
+
+          <input type="radio" id="rating4" name="rating" value="4">
+          <label for="rating4">4</label>
+
+          <input type="radio" id="rating5" name="rating" value="5">
+          <label for="rating5">5</label>
+
+          <!-- Submit button -->
+          <br><br>
+          <input type="submit" value="Submit">
+      </form>
+      </div>
+  </div>
+
+  <div class ="footer">
+    <p>© 2024 My Homepage. All rights reserved.</p>
+</div>
+
+<!--JavaScript-->
+<script src="../JavaScript/javascript.js"></script>
+</body>
+
+</html>

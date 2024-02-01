@@ -1,0 +1,118 @@
+body{
+  margin-bottom: 80px;
+}
+h1 {
+  text-align: center;
+  font-size: 55px;
+}
+.p1{
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p1 img{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+  max-height: 1000px;
+}
+.p1 figcaption {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #555; /* Adjust the color as needed */
+  margin-top: 10px; /* Add some space between the image and caption */
+}
+h2{
+  font-size: 40px;
+  margin-left:120px;
+}
+
+/**/
+.p2 {
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p2 img{
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 4500px;
+}
+.p2 figcaption {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #555; /* Adjust the color as needed */
+  margin-top: 10px; /* Add some space between the image and caption */
+}
+.p2 .grid1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.p2 .grid1 .grid1-items{
+  width: 48%; /* Adjust the width as needed */
+  margin-bottom: 10px; /* Adjust the margin between items as needed */
+}
+/**/
+.p3{
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p3 img{
+  text-align: right;
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 4500px;
+}
+.p3 figcaption {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #555; /* Adjust the color as needed */
+  margin-top: 10px; /* Add some space between the image and caption */
+}
+.p3 .grid1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.p3 .grid1 .grid1-items{
+  width: 48%; /* Adjust the width as needed */
+  margin-bottom: 10px; /* Adjust the margin between items as needed */
+}
+/**/
+.p4{
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}.grid1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p4 .grid2-items {
+  flex: 1; /* Take up remaining space */
+  padding: 10px 20px;
+}
+
+.p4 .grid1-items img {
+  width: 50%;
+  width: 850px; /* Adjust the maximum width of images */
+  height: 350px;
+  display: block;
+  margin:0 auto; /* Center the images within their containers */
+}
+
+.p4 .grid1-items p {
+  text-align: left;
+  max-width: 600px; /* Adjust the maximum width of the paragraph */
+  margin: 0 auto; /* Center the paragraph within its container */
+}

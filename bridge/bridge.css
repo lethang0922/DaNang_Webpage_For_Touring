@@ -1,0 +1,107 @@
+h1 {
+  text-align: center;
+  font-size: 55px;
+}
+.p1{
+  font-size: 25px;
+}
+.p1 img{
+  text-align: center;
+
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+  max-height: 1000px;
+}
+body{
+  margin-bottom: 80px;
+}
+.p1 figcaption {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #555; /* Adjust the color as needed */
+  margin-top: 10px; /* Add some space between the image and caption */
+}
+
+/**/
+
+h2{
+  text-align: center;
+  font-size: 55px;
+}
+.p2{
+  font-size: 25px;
+}
+.p2 img{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+  max-height: 1000px;
+}
+
+.p2 figcaption {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #555; /* Adjust the color as needed */
+  margin-top: 10px; /* Add some space between the image and caption */
+}
+/**/
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+}
+.p3{
+  font-size: 25px;
+}
+.p3 img{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+  max-height: 1000px;
+}
+
+.p3 figcaption {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #555; /* Adjust the color as needed */
+  margin-top: 10px; /* Add some space between the image and caption */
+}
+
+/**/
+
+h4 {
+  text-align: center;
+  font-size: 50px;
+}
+.p4{
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p4 img{
+  height: 450px;
+  width: 600px;
+}
+.grid-images-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.grid-images-items {
+  width: 48%; /* Adjust the width as needed */
+  margin-bottom: 10px; /* Adjust the margin between items as needed */
+}
+.p4 figcaption{
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #555; /* Adjust the color as needed */
+  margin-top: 10px
+}
